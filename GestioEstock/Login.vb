@@ -65,5 +65,7 @@
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         tanca.BringToFront()
         minimitzar.BringToFront()
+        logo.BringToFront()
+
     End Sub
 End Class

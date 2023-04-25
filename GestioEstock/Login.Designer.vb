@@ -24,13 +24,13 @@ Partial Class Login
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.logo = New System.Windows.Forms.PictureBox()
         Me.barraSuperiorPartBotons = New System.Windows.Forms.PictureBox()
         Me.barraSuperiorMoure = New System.Windows.Forms.PictureBox()
         Me.adaptarFinestra = New System.Windows.Forms.PictureBox()
         Me.minimitzar = New System.Windows.Forms.PictureBox()
         Me.tanca = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.logo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.barraSuperiorPartBotons, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.barraSuperiorMoure, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.adaptarFinestra, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -53,15 +53,15 @@ Partial Class Login
         Me.Button1.Text = "Login"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'PictureBox1
+        'logo
         '
-        Me.PictureBox1.BackgroundImage = Global.GestioEstock.My.Resources.Resources.unnamed
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(48, 45)
-        Me.PictureBox1.TabIndex = 6
-        Me.PictureBox1.TabStop = False
+        Me.logo.BackgroundImage = Global.GestioEstock.My.Resources.Resources.unnamed
+        Me.logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.logo.Location = New System.Drawing.Point(0, 0)
+        Me.logo.Name = "logo"
+        Me.logo.Size = New System.Drawing.Size(48, 45)
+        Me.logo.TabIndex = 6
+        Me.logo.TabStop = False
         '
         'barraSuperiorPartBotons
         '
@@ -131,7 +131,7 @@ Partial Class Login
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1093, 673)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.logo)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.barraSuperiorPartBotons)
         Me.Controls.Add(Me.barraSuperiorMoure)
@@ -142,7 +142,7 @@ Partial Class Login
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Login"
         Me.Text = "Login"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.logo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.barraSuperiorPartBotons, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.barraSuperiorMoure, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.adaptarFinestra, System.ComponentModel.ISupportInitialize).EndInit()
@@ -158,5 +158,5 @@ Partial Class Login
     Friend WithEvents barraSuperiorMoure As PictureBox
     Friend WithEvents barraSuperiorPartBotons As PictureBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents logo As PictureBox
 End Class

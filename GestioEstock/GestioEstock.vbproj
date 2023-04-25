@@ -121,12 +121,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Isabel II Petita.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\rosalia.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\unnamed.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
