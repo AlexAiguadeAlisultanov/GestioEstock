@@ -1,1 +1,5 @@
 ConexioBD.vb
+
+# Compilados de Visual Studio.
+[Bb]in/
+[Oo]bj/
